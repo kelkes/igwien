@@ -1906,11 +1906,11 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0 0;
 	}
 
 		header.major h2 {
-			font-size: 2.25em;
+			font-size: 2em;
 		}
 
 		header.major p {
