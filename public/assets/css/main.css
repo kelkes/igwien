@@ -2029,6 +2029,19 @@
 				display: block;
 				width: 100%;
 			}
+			
+		.image.right {
+			display: block;
+			margin: 10px;
+			position: absolute;
+			top: 0px;
+			right: 10px;
+		}
+
+			.image.right img {
+				display: block;
+				width: 100%;
+			}
 
 		.image.fit {
 			display: block;
