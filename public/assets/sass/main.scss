@@ -285,6 +285,19 @@
 				width: 100%;
 			}
 		}
+		
+		&.right {
+			display: block;
+			float: right;
+			margin: 0 2em 2em 0;
+			position: relative;
+			top: 0.25em;
+
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
 
 		&.fit {
 			display: block;
@@ -1072,7 +1085,7 @@
 				@include vendor('backface-visibility', 'hidden');
 				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
 				padding-bottom: 1px;
-				padding-top: 44px;
+				// padding-top: 44px;
 			}
 
 			#titleBar {

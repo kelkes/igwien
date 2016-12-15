@@ -2007,6 +2007,7 @@
 
 	.image {
 		border: 0;
+		margin: 0 0 20px 0;
 		display: inline-block;
 		position: relative;
 		border-radius: 5px;
@@ -2026,6 +2027,19 @@
 		}
 
 			.image.left img {
+				display: block;
+				width: 100%;
+			}
+			
+		.image.right {
+			display: block;
+			margin: 10px;
+			position: absolute;
+			top: 0px;
+			right: 10px;
+		}
+
+			.image.right img {
 				display: block;
 				width: 100%;
 			}
@@ -2523,6 +2537,10 @@
 	.wrapper {
 		padding: 3em 0 3em 0;
 	}
+	
+	.signup-form {
+		padding: 0 5em 0 5em;
+	}
 
 		.wrapper.style1 {
 			background: #fff;
@@ -2575,7 +2593,7 @@
 /* Footer */
 
 	#footer {
-		padding: 4em 0 4em 0;
+		padding: 3em 0 3em 0;
 	}
 
 		#footer a {
@@ -2589,7 +2607,7 @@
 			}
 
 		#footer .container {
-			margin-bottom: 4em;
+			margin-bottom: 1em;
 		}
 
 		#footer .icons {
@@ -2775,9 +2793,9 @@
 
 		/* Header */
 
-			#header {
+			/*#header {
 				display: none;
-			}
+			}*/
 
 		/* Banner */
 
@@ -2814,7 +2832,7 @@
 			}
 
 				#footer .container {
-					margin-bottom: 4em;
+					margin-bottom: 1em;
 				}
 
 		/* Off-Canvas Navigation */
@@ -2829,7 +2847,7 @@
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px;
+				/*padding-top: 44px;*/
 			}
 
 			#titleBar {
@@ -3134,6 +3152,10 @@
 
 			.wrapper {
 				padding: 2em 20px 1px 20px;
+			}
+			
+			.signup-form {
+				padding: 0 1em 0 1em;
 			}
 
 		/* CTA */
