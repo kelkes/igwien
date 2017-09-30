@@ -2514,6 +2514,12 @@
 				font-size: 1.25em;
 				vertical-align: middle;
 			}
+			
+			#banner header h1 {
+				margin: 0;
+				font-size: 2.25em;
+				vertical-align: middle;
+			}
 
 				#banner header h2 em {
 					opacity: 0.75;
@@ -2771,11 +2777,11 @@
 		/* Box */
 
 			.box.highlight {
-				text-align: left;
+				text-align: center;
 				position: relative;
 				padding-left: 7em;
 			}
-
+			
 				.box.highlight i {
 					position: absolute;
 					margin: 0;
