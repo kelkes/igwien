@@ -1905,7 +1905,7 @@
 		font-size: 1.25em;
 		position: relative;
 		margin-top: -1.25em;
-		margin-bottom: 2.25em;
+		margin-bottom: 1.25em;
 	}
 
 	header.major {
@@ -2509,7 +2509,7 @@
 			background: #212121;
 			background: rgba(27, 27, 27, 0.75);
 			color: #fff;
-			padding: 1.5em 0;
+			padding: 1.5em 0 0 0;
 		}
 
 			#banner header h2 {
