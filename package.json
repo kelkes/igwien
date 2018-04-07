@@ -1,24 +1,35 @@
 {
-  "name": "react-static-example-basic",
-  "version": "1.0.1",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-hot-loader": "^4.0.0-beta.21",
-    "react-router": "^4.2.0",
-    "react-static": "^5.7.1"
-  },
-  "devDependencies": {
-    "eslint-config-react-tools": "1.x.x",
-    "serve": "^6.1.0"
-  }
+    "name": "react-static-example-basic",
+    "version": "1.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "react-static start",
+        "stage": "react-static build --staging",
+        "build": "react-static build",
+        "serve": "serve dist -p 3000",
+        "precommit": "lint-staged",
+        "prettify": "prettier --write '**/*.{js,jsx}'"
+    },
+    "lint-staged": {
+        "*.{js,jsx}": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "dependencies": {
+        "prop-types": "^15.6.1",
+        "react": "^16.0.0",
+        "react-dom": "^16.0.0",
+        "react-hot-loader": "^4.0.0-beta.21",
+        "react-router": "^4.2.0",
+        "react-static": "^5.7.1"
+    },
+    "devDependencies": {
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-config-react-trigo": "^5.5.3",
+        "eslint-plugin-prettier": "^2.6.0",
+        "prettier": "^1.11.1",
+        "serve": "^6.1.0"
+    }
 }

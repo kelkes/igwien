@@ -2578,3 +2578,9 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 		text-align: left;
 	}
 }
+
+td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	min-width: 100px;
+}
