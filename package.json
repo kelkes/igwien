@@ -17,6 +17,9 @@
             "git add"
         ]
     },
+    "engines": {
+      "node": ">=9"
+    },
     "dependencies": {
         "prop-types": "^15.6.1",
         "react": "^16.0.0",
