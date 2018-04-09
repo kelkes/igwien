@@ -5,6 +5,10 @@ import workshops from './data/workshops';
 export default {
 	siteRoot: 'http://tagung.igwien.at',
 	stagingSiteRoot: 'http://localhost:3000',
+	paths: {
+		dist: 'public',
+		public: 'assets', // The public directory (files copied to dist during build)
+	},
 	getSiteData: () => {
 		return {
 			title: 'Fachtagung IGWien',
