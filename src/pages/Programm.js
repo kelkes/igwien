@@ -121,7 +121,7 @@ export default () => (
 					</tr>
 					<tr>
 						<td>18:00</td>
-						<td>Abschluss anschließend gemütlicher Ausklang</td>
+						<td>Abschluss <br />anschließend gemütlicher Ausklang</td>
 					</tr>
 				</tbody>
 			</table>
