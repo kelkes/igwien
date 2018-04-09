@@ -7,6 +7,7 @@ export default () => (
 		<Container>
 			<h1>Anmeldung</h1>
 			<form name="registration" method="POST" data-netlify="true">
+				<input type="hidden" name="form-name" value="registration" />
 				<div className="row 50%">
 					<div className="12u">
 						<label htmlFor="mc">
