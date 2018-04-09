@@ -3,7 +3,7 @@ import talks from './data/talks';
 import workshops from './data/workshops';
 
 export default {
-	siteRoot: 'http://tagung.igwien.at',
+	siteRoot: 'https://tagung.igwien.at',
 	stagingSiteRoot: 'http://localhost:3000',
 	paths: {
 		dist: 'public',
