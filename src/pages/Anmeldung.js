@@ -5,15 +5,179 @@ import Container from '../atoms/Container';
 export default () => (
 	<Section className="style1">
 		<Container>
-			<h3>Tagungsgebühr</h3>
-			<p>
-				Eingetragene PsychotherapeutInnen: <strong>250 EUR</strong>
-				<br />
-				AusbildungsteilnehmerInnen: <strong>210 EUR</strong>
-				<br />
-				Die Verpflegung ist in der Tagungsgebühr inkludiert.
-			</p>
-			<h3>Anmeldung</h3>{' '}
+			<h1>Anmeldung</h1>
+			<form name="registration" method="POST" netlify>
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="mc">
+							<input
+								type="radio"
+								id="mc"
+								name="anmeldung"
+								value="TagungsteilnehmerIn 250 EUR"
+								required
+							/>
+							TagungsteilnehmerIn 250 EUR *
+						</label>
+					</div>
+					<div className="12u">
+						<label htmlFor="vi">
+							<input
+								type="radio"
+								id="vi"
+								name="anmeldung"
+								value="AusbildungsteilnehmerIn 210 EUR"
+								required
+							/>
+							AusbildungsteilnehmerIn 210 EUR *
+						</label>
+					</div>
+					<div className="12u">
+						<p>
+							* Die Verpflegung ist in der Tagungsgebühr
+							inkludiert.
+						</p>
+					</div>
+					<div className="6u 12u(mobilep)">
+						<input
+							type="text"
+							name="Vorname"
+							id="Vorname"
+							placeholder="Vorname"
+							required
+						/>
+					</div>
+					<div className="6u 12u(mobilep)">
+						<input
+							type="text"
+							name="Nachname"
+							id="Nachname"
+							placeholder="Nachname"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<input
+							type="email"
+							name="Email"
+							id="Email"
+							placeholder="Email"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<input
+							type="text"
+							name="Adresse"
+							id="Adresse"
+							placeholder="Adresse"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<select
+							name="workshops-erste-wahl"
+							id="workshops-erste-wahl"
+							required>
+							<option value="">--- Workshop 1. Wahl ---</option>
+							<option value="WORKSHOP 1">
+								WORKSHOP 1 (Heide Anger)
+							</option>
+							<option value="WORKSHOP 2">
+								WORKSHOP 2 (Christiane Eichenberg)
+							</option>
+							<option value="WORKSHOP 3">
+								WORKSHOP 3 (Maria Flaig)
+							</option>
+							<option value="WORKSHOP 4">
+								WORKSHOP 4 (Werner Gill)
+							</option>
+							<option value="WORKSHOP 5">
+								WORKSHOP 5 (Thomas Schön)
+							</option>
+							<option value="WORKSHOP 6">
+								WORKSHOP 6 (Hermann Wegscheider)
+							</option>
+							<option value="WORKSHOP 7">
+								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Scholz, Elitsa Tilkidzhieva)
+							</option>
+						</select>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<select
+							name="workshops-zweite-wahl"
+							id="workshops-zweite-wahl"
+							required>
+							<option value="">--- Workshop 2. Wahl ---</option>
+							<option value="WORKSHOP 1">
+								WORKSHOP 1 (Heide Anger)
+							</option>
+							<option value="WORKSHOP 2">
+								WORKSHOP 2 (Christiane Eichenberg)
+							</option>
+							<option value="WORKSHOP 3">
+								WORKSHOP 3 (Maria Flaig)
+							</option>
+							<option value="WORKSHOP 4">
+								WORKSHOP 4 (Werner Gill)
+							</option>
+							<option value="WORKSHOP 5">
+								WORKSHOP 5 (Thomas Schön)
+							</option>
+							<option value="WORKSHOP 6">
+								WORKSHOP 6 (Hermann Wegscheider)
+							</option>
+							<option value="WORKSHOP 7">
+								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Scholz, Elitsa Tilkidzhieva)
+							</option>
+						</select>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="vegetarisch">
+							<input
+								type="checkbox"
+								name="vegetarisch"
+								id="vegetarisch"
+							/>{' '}
+							Ich bitte um vegetarische Verpflegung
+						</label>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="fest">
+							<input type="checkbox" name="fest" id="fest" /> Ich
+							werde am Fest (05.10. ab 19.00 Uhr) teilnehmen
+						</label>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<ul className="actions">
+							<li>
+								<input
+									type="submit"
+									className="button alt"
+									value="Anmeldung abschicken"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</form>
+			<h3>Anmeldung</h3>
 			<p>
 				Die Anmeldung ist erst mit der Überweisung der Tagungsgebühr auf
 				das weiter unten angeführte Konto gültig.
