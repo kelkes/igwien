@@ -11,7 +11,10 @@ export default {
 	},
 	getSiteData: () => {
 		return {
-			title: 'Fachtagung IGWien',
+			siteTitle: 'Fachtagung IGWien',
+			metaDescription: 'Fachtagung IGWien',
+			metaKeywords: 'fachtagung igwien',
+			metaAuthor: 'IGWien',
 		};
 	},
 	getRoutes: async () => [
