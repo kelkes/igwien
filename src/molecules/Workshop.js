@@ -1,12 +1,12 @@
 import React, {Fragment} from 'react';
-import {string, number, oneOf, arrayOf} from 'prop-types';
+import {string, number, oneOfType, arrayOf} from 'prop-types';
 import SpeakerLink from '../atoms/SpeakerLink';
 import toHash from '../utils/toHash';
 
 const propTypes = {
 	num: number.isRequired,
 	title: string.isRequired,
-	speaker: oneOf([string, arrayOf(string)]).isRequired,
+	speaker: oneOfType([string, arrayOf(string)]).isRequired,
 	description: string,
 };
 

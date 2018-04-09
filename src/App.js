@@ -19,36 +19,49 @@ const App = () => (
 					<Route
 						render={({location: {pathname}}) => (
 							<ul>
-								<li className={pathname === '/' && 'current'}>
+								<li
+									className={
+										pathname === '/' ? 'current' : ''
+									}>
 									<Link to="/">Home</Link>
 								</li>
 								<li
 									className={
-										pathname === '/programm' && 'current'
+										pathname === '/programm'
+											? 'current'
+											: ''
 									}>
 									<Link to="/programm">Programm</Link>
 								</li>
 								<li
 									className={
-										pathname === '/workshops' && 'current'
+										pathname === '/workshops'
+											? 'current'
+											: ''
 									}>
 									<Link to="/workshops">Workshops</Link>
 								</li>
 								<li
 									className={
-										pathname === '/vortraege' && 'current'
+										pathname === '/vortraege'
+											? 'current'
+											: ''
 									}>
 									<Link to="/vortraege">Vorträge</Link>
 								</li>
 								<li
 									className={
-										pathname === '/vortragende' && 'current'
+										pathname === '/vortragende'
+											? 'current'
+											: ''
 									}>
 									<Link to="/vortragende">Vortragende</Link>
 								</li>
 								<li
 									className={
-										pathname === '/anmeldung' && 'current'
+										pathname === '/anmeldung'
+											? 'current'
+											: ''
 									}>
 									<Link to="/anmeldung">Anmeldung</Link>
 								</li>
