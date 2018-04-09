@@ -23,7 +23,7 @@ export default () => (
 						<td>14:00</td>
 						<td>
 							Eröffnung
-							<br />Ursula Grillmeier, Hermann Wegscheider Karin
+							<br />Ursula Grillmeier, Hermann Wegscheider, Karin
 							Mann, Ernst Mayerl
 						</td>
 					</tr>
@@ -54,7 +54,7 @@ export default () => (
 					<tr>
 						<td>17:30</td>
 						<td>
-							Vollklang - taktvoll Gemeinsames Singen & mehr
+							Vollklang - taktvoll <br />Gemeinsames Singen & mehr
 							<br />
 							<SpeakerLink speaker="Reinhard Bayer" />
 						</td>
@@ -121,7 +121,7 @@ export default () => (
 					</tr>
 					<tr>
 						<td>18:00</td>
-						<td>Abschluss anschließend gemütlicher Ausklang</td>
+						<td>Abschluss <br />anschließend gemütlicher Ausklang</td>
 					</tr>
 				</tbody>
 			</table>

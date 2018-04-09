@@ -64,13 +64,13 @@ export default withSiteData(() => (
 					Grillmeier lernt das IGW Würzburg kennen, schätzt die dort
 					gelebte Kollegialität, die internationale Ausrichtung und
 					die langjährige Tradition der Zusammenarbeit mit dem
-					Cleveland Institute. Vier österreichische und vier deutsche
+					Cleveland Institute. <br /><br />Vier österreichische und vier deutsche
 					GestalttherapeutInnen starten ein gemeinsames Unternehmen:
 					1996 beginnt die erste Ausbildungsgruppe noch „über der
 					Grenze“. Seit der erfolgreichen Anerkennung als
 					eingetragenes Fachspezifikum 1998 haben 20
 					Ausbildungsgruppen, engagierte Lehrende und viele kompetente
-					Graduierte die IGWien-Gestalt geformt. Wir freuen uns über
+					Graduierte die IGWien-Gestalt geformt. <br /><br />Wir freuen uns über
 					das Gelungene und auf die Zukunft!
 				</p>
 			</Container>

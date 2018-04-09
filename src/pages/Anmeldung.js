@@ -178,6 +178,7 @@ export default () => (
 					</div>
 				</div>
 			</form>
+			<br /><br />
 			<h3>Anmeldung</h3>
 			<p>
 				Die Anmeldung ist erst mit der Überweisung der Tagungsgebühr auf
@@ -185,7 +186,7 @@ export default () => (
 			</p>
 			<h3>Anmeldeschluss</h3>
 			<p>
-				<strong>21. September 2018</strong>
+				21. September 2018
 			</p>
 			<h3>Begrenzte TeilnehmerInnenanzahl</h3>
 			<p>
@@ -222,8 +223,7 @@ export default () => (
 			<h3>Tagungsort</h3>
 			<p>
 				Kardinal König Haus<br />
-				Kardinal-König-Platz 3<br />
-				1130 Wien<br />
+				Kardinal-König-Platz 3, 1130 Wien<br />
 				<a href="http://kardinal-koenig-haus.at">
 					kardinal-koenig-haus.at
 				</a>
