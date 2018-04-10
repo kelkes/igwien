@@ -2277,7 +2277,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	}
 	/* Header */
 	#header {
-		display: none;
+		/* display: none; */
 	}
 	/* Banner */
 	#banner {
@@ -2584,5 +2584,3 @@ td {
 	padding-bottom: 8px;
 	min-width: 100px;
 }
-
-#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
