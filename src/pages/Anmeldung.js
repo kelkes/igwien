@@ -1,289 +1,183 @@
 import React from 'react';
-import {Head} from 'react-static';
 import Section from '../atoms/Section';
 import Container from '../atoms/Container';
-
-window.fnames = [];
-window.ftypes = [];
-window.fnames[5] = 'MMERGE5';
-window.ftypes[5] = 'radio';
-window.fnames[1] = 'FNAME';
-window.ftypes[1] = 'text';
-window.fnames[2] = 'LNAME';
-window.ftypes[2] = 'text';
-window.fnames[0] = 'EMAIL';
-window.ftypes[0] = 'email';
-window.fnames[6] = 'MMERGE6';
-window.ftypes[6] = 'text';
-window.fnames[4] = 'PHONE';
-window.ftypes[4] = 'phone';
-window.fnames[3] = 'MMERGE3';
-window.ftypes[3] = 'dropdown';
-window.fnames[7] = 'MMERGE7';
-window.ftypes[7] = 'dropdown';
-
-window.$mcj = jQuery.noConflict(true); // eslint-disable-line
 
 export default () => (
 	<Section className="style1">
 		<Container>
 			<h1>Anmeldung</h1>
-			<Head>
-				<script
-					src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-					integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-					crossOrigin="anonymous"
-				/>
-				<script
-					type="text/javascript"
-					src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-				/>
-			</Head>
-			<link
-				href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
-				rel="stylesheet"
-				type="text/css"
-			/>
-			<div id="mc_embed_signup">
-				<form
-					action="https://igwien.us14.list-manage.com/subscribe/post?u=b4d75948fd825df24346bbac4&amp;id=de717a8a99"
-					method="post"
-					id="mc-embedded-subscribe-form"
-					name="mc-embedded-subscribe-form"
-					className="validate"
-					target="_blank"
-					noValidate>
-					<div id="mc_embed_signup_scroll">
-						<div className="indicates-required">
-							<span className="asterisk">*</span> indicates
-							required
-						</div>
-						<div className="mc-field-group input-group">
-							<strong>
-								Anmeldung <span className="asterisk">*</span>
-							</strong>
-							<ul>
-								<li>
-									<input
-										type="radio"
-										value="TagungsteilnehmerIn 250 EUR"
-										name="MMERGE5"
-										id="mce-MMERGE5-0"
-									/>
-									<label htmlFor="mce-MMERGE5-0">
-										TagungsteilnehmerIn 250 EUR
-									</label>
-								</li>
-								<li>
-									<input
-										type="radio"
-										value="AusbildungsteilnehmerIn 210 EUR"
-										name="MMERGE5"
-										id="mce-MMERGE5-1"
-									/>
-									<label htmlFor="mce-MMERGE5-1">
-										AusbildungsteilnehmerIn 210 EUR
-									</label>
-								</li>
-							</ul>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-FNAME">Vorname </label>
+			<form name="registration" method="POST" data-netlify="true">
+				<input type="hidden" name="form-name" value="registration" />
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="mc">
 							<input
-								type="text"
-								value=""
-								name="FNAME"
-								className=""
-								id="mce-FNAME"
+								type="radio"
+								id="mc"
+								name="anmeldung"
+								value="TagungsteilnehmerIn 250 EUR"
+								required
 							/>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-LNAME">Nachname </label>
-							<input
-								type="text"
-								value=""
-								name="LNAME"
-								className=""
-								id="mce-LNAME"
-							/>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-EMAIL">
-								Email Adresse{' '}
-								<span className="asterisk">*</span>
-							</label>
-							<input
-								type="email"
-								value=""
-								name="EMAIL"
-								className="required email"
-								id="mce-EMAIL"
-							/>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-MMERGE6">
-								Postadresse <span className="asterisk">*</span>
-							</label>
-							<input
-								type="text"
-								value=""
-								name="MMERGE6"
-								className="required"
-								id="mce-MMERGE6"
-							/>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-MMERGE3">
-								Workshop 1. Wahl{' '}
-								<span className="asterisk">*</span>
-							</label>
-							<select
-								name="MMERGE3"
-								className="required"
-								id="mce-MMERGE3">
-								<option value="" />
-								<option value="" />
-								<option value="WORKSHOP 1 Therapeutische Arbeit mit geflüchteten Frauen (Heide Anger)">
-									WORKSHOP 1 Therapeutische Arbeit mit
-									geflüchteten Frauen (Heide Anger)
-								</option>
-								<option value="WORKSHOP 2 Vom Online-Dating bis zur Online- Scheidung: Veränderungen in Paar- und Familienbeziehungen (Christiane Eichenberg)">
-									WORKSHOP 2 Vom Online-Dating bis zur Online-
-									Scheidung: Veränderungen in Paar- und
-									Familienbeziehungen (Christiane Eichenberg)
-								</option>
-								<option value="WORKSHOP 3 Wie begegnen wir dem Fremden? Antworten der Gestalttherapie (Maria Flaig)">
-									WORKSHOP 3 Wie begegnen wir dem Fremden?
-									Antworten der Gestalttherapie (Maria Flaig)
-								</option>
-								<option value="WORKSHOP 4 Draußen im Drinnen (Werner Gill)">
-									WORKSHOP 4 Draußen im Drinnen (Werner Gill)
-								</option>
-								<option value="WORKSHOP 5 Ich bin ein/e GestaltherapeutIn. Eine Gelegenheit zur Begegnung mit dem eigenen Gefühl der Zugehörigkeit und dem beruflichen Identitätsgefühl (Thomas Schön)">
-									WORKSHOP 5 Ich bin ein/e GestaltherapeutIn.
-									Eine Gelegenheit zur Begegnung mit dem
-									eigenen Gefühl der Zugehörigkeit und dem
-									beruflichen Identitätsgefühl (Thomas Schön)
-								</option>
-								<option value="WORKSHOP 6 Ich-Du und der/die Andere - die Bedeutung Bubers und Lévinas für die Gestalttherapie (Hermann Wegscheider)">
-									WORKSHOP 6 Ich-Du und der/die Andere - die
-									Bedeutung Bubers und Lévinas für die
-									Gestalttherapie (Hermann Wegscheider)
-								</option>
-								<option value="In den Schuhen der/des Anderen (Inci Ardic, Masoud Eshaghi, Dearly Scholz, Elitsa Tilkidzhieva)">
-									In den Schuhen der/des Anderen (Inci Ardic,
-									Masoud Eshaghi, Dearly Scholz, Elitsa
-									Tilkidzhieva)
-								</option>
-							</select>
-						</div>
-						<div className="mc-field-group">
-							<label htmlFor="mce-MMERGE7">
-								Workshop 2. Wahl{' '}
-								<span className="asterisk">*</span>
-							</label>
-							<select
-								name="MMERGE7"
-								className="required"
-								id="mce-MMERGE7">
-								<option value="" />
-								<option value="" />
-								<option value="WORKSHOP 1 Therapeutische Arbeit mit geflüchteten Frauen (Heide Anger)">
-									WORKSHOP 1 Therapeutische Arbeit mit
-									geflüchteten Frauen (Heide Anger)
-								</option>
-								<option value="WORKSHOP 2 Vom Online-Dating bis zur Online- Scheidung: Veränderungen in Paar- und Familienbeziehungen (Christiane Eichenberg)">
-									WORKSHOP 2 Vom Online-Dating bis zur Online-
-									Scheidung: Veränderungen in Paar- und
-									Familienbeziehungen (Christiane Eichenberg)
-								</option>
-								<option value="WORKSHOP 3 Wie begegnen wir dem Fremden? Antworten der Gestalttherapie (Maria Flaig)">
-									WORKSHOP 3 Wie begegnen wir dem Fremden?
-									Antworten der Gestalttherapie (Maria Flaig)
-								</option>
-								<option value="WORKSHOP 4 Draußen im Drinnen (Werner Gill)">
-									WORKSHOP 4 Draußen im Drinnen (Werner Gill)
-								</option>
-								<option value="WORKSHOP 5 Ich bin ein/e GestaltherapeutIn. Eine Gelegenheit zur Begegnung mit dem eigenen Gefühl der Zugehörigkeit und dem beruflichen Identitätsgefühl (Thomas Schön)">
-									WORKSHOP 5 Ich bin ein/e GestaltherapeutIn.
-									Eine Gelegenheit zur Begegnung mit dem
-									eigenen Gefühl der Zugehörigkeit und dem
-									beruflichen Identitätsgefühl (Thomas Schön)
-								</option>
-								<option value="WORKSHOP 6 Ich-Du und der/die Andere - die Bedeutung Bubers und Lévinas für die Gestalttherapie (Hermann Wegscheider)">
-									WORKSHOP 6 Ich-Du und der/die Andere - die
-									Bedeutung Bubers und Lévinas für die
-									Gestalttherapie (Hermann Wegscheider)
-								</option>
-								<option value="In den Schuhen der/des Anderen (Inci Ardic, Masoud Eshaghi, Dearly Scholz, Elitsa Tilkidzhieva)">
-									In den Schuhen der/des Anderen (Inci Ardic,
-									Masoud Eshaghi, Dearly Scholz, Elitsa
-									Tilkidzhieva)
-								</option>
-							</select>
-						</div>
-						<div className="mc-field-group input-group">
-							<strong>Tagungsdetails </strong>
-							<ul>
-								<li>
-									<input
-										type="checkbox"
-										value="1"
-										name="group[3321][1]"
-										id="mce-group[3321]-3321-0"
-									/>
-									<label htmlFor="mce-group[3321]-3321-0">
-										Ich bitte um vegetarische Verpflegung
-									</label>
-								</li>
-								<li>
-									<input
-										type="checkbox"
-										value="2"
-										name="group[3321][2]"
-										id="mce-group[3321]-3321-1"
-									/>
-									<label htmlFor="mce-group[3321]-3321-1">
-										Ich werde am Fest (05.10. ab 19.00 Uhr)
-										teilnehmen
-									</label>
-								</li>
-							</ul>
-						</div>
-						<div id="mce-responses" className="clear">
-							<div
-								className="response"
-								id="mce-error-response"
-								style={{display: 'none'}}
-							/>
-							<div
-								className="response"
-								id="mce-success-response"
-								style={{display: 'none'}}
-							/>
-						</div>
-						<div
-							style={{position: 'absolute', left: '-5000px'}}
-							aria-hidden="true">
-							<input
-								type="text"
-								name="b_b4d75948fd825df24346bbac4_de717a8a99"
-								tabIndex="-1"
-								value=""
-							/>
-						</div>
-						<div className="clear">
-							<input
-								type="submit"
-								value="Subscribe"
-								name="subscribe"
-								id="mc-embedded-subscribe"
-								className="button"
-							/>
-						</div>
+							TagungsteilnehmerIn 250 EUR *
+						</label>
 					</div>
-				</form>
-			</div>
+					<div className="12u">
+						<label htmlFor="vi">
+							<input
+								type="radio"
+								id="vi"
+								name="anmeldung"
+								value="AusbildungsteilnehmerIn 210 EUR"
+								required
+							/>
+							AusbildungsteilnehmerIn 210 EUR *
+						</label>
+					</div>
+					<div className="12u">
+						<p>
+							* Die Verpflegung ist in der Tagungsgebühr
+							inkludiert.
+						</p>
+					</div>
+					<div className="6u 12u(mobilep)">
+						<input
+							type="text"
+							name="Vorname"
+							id="Vorname"
+							placeholder="Vorname"
+							required
+						/>
+					</div>
+					<div className="6u 12u(mobilep)">
+						<input
+							type="text"
+							name="Nachname"
+							id="Nachname"
+							placeholder="Nachname"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<input
+							type="email"
+							name="Email"
+							id="Email"
+							placeholder="Email"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<input
+							type="text"
+							name="Adresse"
+							id="Adresse"
+							placeholder="Adresse"
+							required
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<select
+							name="workshops-erste-wahl"
+							id="workshops-erste-wahl"
+							required>
+							<option value="">--- Workshop 1. Wahl ---</option>
+							<option value="WORKSHOP 1">
+								WORKSHOP 1 (Heide Anger)
+							</option>
+							<option value="WORKSHOP 2">
+								WORKSHOP 2 (Christiane Eichenberg)
+							</option>
+							<option value="WORKSHOP 3">
+								WORKSHOP 3 (Maria Flaig)
+							</option>
+							<option value="WORKSHOP 4">
+								WORKSHOP 4 (Werner Gill)
+							</option>
+							<option value="WORKSHOP 5">
+								WORKSHOP 5 (Thomas Schön)
+							</option>
+							<option value="WORKSHOP 6">
+								WORKSHOP 6 (Hermann Wegscheider)
+							</option>
+							<option value="WORKSHOP 7">
+								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Scholz, Elitsa Tilkidzhieva)
+							</option>
+						</select>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<select
+							name="workshops-zweite-wahl"
+							id="workshops-zweite-wahl"
+							required>
+							<option value="">--- Workshop 2. Wahl ---</option>
+							<option value="WORKSHOP 1">
+								WORKSHOP 1 (Heide Anger)
+							</option>
+							<option value="WORKSHOP 2">
+								WORKSHOP 2 (Christiane Eichenberg)
+							</option>
+							<option value="WORKSHOP 3">
+								WORKSHOP 3 (Maria Flaig)
+							</option>
+							<option value="WORKSHOP 4">
+								WORKSHOP 4 (Werner Gill)
+							</option>
+							<option value="WORKSHOP 5">
+								WORKSHOP 5 (Thomas Schön)
+							</option>
+							<option value="WORKSHOP 6">
+								WORKSHOP 6 (Hermann Wegscheider)
+							</option>
+							<option value="WORKSHOP 7">
+								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Scholz, Elitsa Tilkidzhieva)
+							</option>
+						</select>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="vegetarisch">
+							<input
+								type="checkbox"
+								name="vegetarisch"
+								id="vegetarisch"
+							/>{' '}
+							Ich bitte um vegetarische Verpflegung
+						</label>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<label htmlFor="fest">
+							<input type="checkbox" name="fest" id="fest" /> Ich
+							werde am Fest (05.10. ab 19.00 Uhr) teilnehmen
+						</label>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<ul className="actions">
+							<li>
+								<input
+									type="submit"
+									className="button alt"
+									value="Anmeldung abschicken"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</form>
 			<br />
 			<br />
 			<h3>Anmeldung</h3>
