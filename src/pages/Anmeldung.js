@@ -73,6 +73,16 @@ export default () => (
 					<div className="12u">
 						<input
 							type="text"
+							name="Telefon"
+							id="Telefon"
+							placeholder="Telefon"
+						/>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<input
+							type="text"
 							name="Adresse"
 							id="Adresse"
 							placeholder="Adresse"
