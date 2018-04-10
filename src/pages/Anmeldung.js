@@ -160,8 +160,8 @@ export default () => (
 							<option value="">
 								--- Vegetarische Verpflegung ---
 							</option>
-							<option value="true">Ja</option>
-							<option value="false">Nein</option>
+							<option value="Ja">Ja</option>
+							<option value="Nein">Nein</option>
 						</select>
 					</div>
 				</div>
@@ -171,8 +171,8 @@ export default () => (
 							<option value="">
 								--- Ich werde am Fest teilnehmen ---
 							</option>
-							<option value="true">Ja</option>
-							<option value="false">Nein</option>
+							<option value="Ja">Ja</option>
+							<option value="Nein">Nein</option>
 						</select>
 					</div>
 				</div>
