@@ -14,9 +14,8 @@ const SpeakerLink = ({speaker}) => (
 	<Fragment>
 		{Array.isArray(speaker) ? (
 			speaker.map((s, i) => (
-				<Fragment>
+				<Fragment key={toHash(s)}>
 					<Link
-						key={toHash(s)}
 						to={{
 							pathname: '/vortragende',
 							hash: `#${toHash(s)}`,
