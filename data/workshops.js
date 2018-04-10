@@ -51,7 +51,7 @@ export default [
 		speaker: [
 			'Inci Ardic' -
 			'Masoud Eshaghi' -
-			'Dearly Scholz' -
+			'Dearly Scholz' - 
 			'Elitsa Tilkidzhieva',
 		],
 		description:
