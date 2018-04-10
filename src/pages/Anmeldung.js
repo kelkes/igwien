@@ -2,7 +2,27 @@ import React from 'react';
 import {Head} from 'react-static';
 import Section from '../atoms/Section';
 import Container from '../atoms/Container';
-import '../utils/mailchimp';
+
+window.fnames = [];
+window.ftypes = [];
+window.fnames[5] = 'MMERGE5';
+window.ftypes[5] = 'radio';
+window.fnames[1] = 'FNAME';
+window.ftypes[1] = 'text';
+window.fnames[2] = 'LNAME';
+window.ftypes[2] = 'text';
+window.fnames[0] = 'EMAIL';
+window.ftypes[0] = 'email';
+window.fnames[6] = 'MMERGE6';
+window.ftypes[6] = 'text';
+window.fnames[4] = 'PHONE';
+window.ftypes[4] = 'phone';
+window.fnames[3] = 'MMERGE3';
+window.ftypes[3] = 'dropdown';
+window.fnames[7] = 'MMERGE7';
+window.ftypes[7] = 'dropdown';
+
+window.$mcj = jQuery.noConflict(true); // eslint-disable-line
 
 export default () => (
 	<Section className="style1">
