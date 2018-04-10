@@ -88,25 +88,25 @@ export default () => (
 							required>
 							<option value="">--- Workshop 1. Wahl ---</option>
 							<option value="WORKSHOP 1">
-								WORKSHOP 1 (Heide Anger)
+								Workshop 1 (Heide Anger)
 							</option>
 							<option value="WORKSHOP 2">
-								WORKSHOP 2 (Christiane Eichenberg)
+								Workshop 2 (Christiane Eichenberg)
 							</option>
 							<option value="WORKSHOP 3">
-								WORKSHOP 3 (Maria Flaig)
+								Workshop 3 (Maria Flaig)
 							</option>
 							<option value="WORKSHOP 4">
-								WORKSHOP 4 (Werner Gill)
+								Workshop 4 (Werner Gill)
 							</option>
 							<option value="WORKSHOP 5">
-								WORKSHOP 5 (Thomas Schön)
+								Workshop 5 (Thomas Schön)
 							</option>
 							<option value="WORKSHOP 6">
-								WORKSHOP 6 (Hermann Wegscheider)
+								Workshop 6 (Hermann Wegscheider)
 							</option>
 							<option value="WORKSHOP 7">
-								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Workshop 7 (Inci Ardic, Masoud Eshaghi, Dearly
 								Scholz, Elitsa Tilkidzhieva)
 							</option>
 						</select>
@@ -120,25 +120,25 @@ export default () => (
 							required>
 							<option value="">--- Workshop 2. Wahl ---</option>
 							<option value="WORKSHOP 1">
-								WORKSHOP 1 (Heide Anger)
+								Workshop 1 (Heide Anger)
 							</option>
 							<option value="WORKSHOP 2">
-								WORKSHOP 2 (Christiane Eichenberg)
+								Workshop 2 (Christiane Eichenberg)
 							</option>
 							<option value="WORKSHOP 3">
-								WORKSHOP 3 (Maria Flaig)
+								Workshop 3 (Maria Flaig)
 							</option>
 							<option value="WORKSHOP 4">
-								WORKSHOP 4 (Werner Gill)
+								Workshop 4 (Werner Gill)
 							</option>
 							<option value="WORKSHOP 5">
-								WORKSHOP 5 (Thomas Schön)
+								Workshop 5 (Thomas Schön)
 							</option>
 							<option value="WORKSHOP 6">
-								WORKSHOP 6 (Hermann Wegscheider)
+								Workshop 6 (Hermann Wegscheider)
 							</option>
 							<option value="WORKSHOP 7">
-								WORKSHOP 7 (Inci Ardic, Masoud Eshaghi, Dearly
+								Workshop 7 (Inci Ardic, Masoud Eshaghi, Dearly
 								Scholz, Elitsa Tilkidzhieva)
 							</option>
 						</select>
