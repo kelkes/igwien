@@ -1,3 +1,4 @@
+import React from 'react';
 import speakers from './data/speakers';
 import talks from './data/talks';
 import workshops from './data/workshops';
@@ -9,6 +10,7 @@ export default {
 		dist: 'public',
 		public: 'assets', // The public directory (files copied to dist during build)
 	},
+	// eslint-disable-next-line
 	Document: ({Html, Head, Body, children, siteData, renderMeta}) => (
 		<Html lang="de">
 			<Head>
@@ -20,6 +22,11 @@ export default {
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
+				/>
+				<script
+					src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+					integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+					crossOrigin="anonymous"
 				/>
 				<script
 					type="text/javascript"

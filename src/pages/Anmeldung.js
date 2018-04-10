@@ -222,16 +222,16 @@ export default () => (
 							<div
 								className="response"
 								id="mce-error-response"
-								style="display:none"
+								style={{display: 'none'}}
 							/>
 							<div
 								className="response"
 								id="mce-success-response"
-								style="display:none"
+								style={{display: 'none'}}
 							/>
 						</div>
 						<div
-							style="position: absolute; left: -5000px;"
+							style={{position: 'absolute', left: '-5000px'}}
 							aria-hidden="true">
 							<input
 								type="text"
