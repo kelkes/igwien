@@ -46,12 +46,11 @@ export default [
 	},
 	{
 		num: 7,
-		title:
-			'In den Schuhen der/des Anderen',
+		title: 'In den Schuhen der/des Anderen',
 		speaker: [
-			'Inci Ardic' -
-			'Masoud Eshaghi' -
-			'Dearly Scholz' - 
+			'Inci Ardic',
+			'Masoud Eshaghi',
+			'Dearly Scholz',
 			'Elitsa Tilkidzhieva',
 		],
 		description:

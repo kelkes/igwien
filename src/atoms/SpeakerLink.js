@@ -13,15 +13,18 @@ const defaultProps = {};
 const SpeakerLink = ({speaker}) => (
 	<Fragment>
 		{Array.isArray(speaker) ? (
-			speaker.map(s => (
-				<Link
-					key={toHash(s)}
-					to={{
-						pathname: '/vortragende',
-						hash: `#${toHash(s)}`,
-					}}>
-					{s}
-				</Link>
+			speaker.map((s, i) => (
+				<Fragment>
+					<Link
+						key={toHash(s)}
+						to={{
+							pathname: '/vortragende',
+							hash: `#${toHash(s)}`,
+						}}>
+						{s}
+					</Link>
+					{i < speaker.length - 1 ? ' - ' : ''}
+				</Fragment>
 			))
 		) : (
 			<Link
