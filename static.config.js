@@ -23,15 +23,6 @@ export default {
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
 				/>
-				<script
-					src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-					integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-					crossOrigin="anonymous"
-				/>
-				<script
-					type="text/javascript"
-					src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
-				/>
 			</Head>
 			<Body className="bg-grey-light p-2 lg:p-8 min-h-screen">
 				<div className="bg-white">{children}</div>

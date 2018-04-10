@@ -1,4 +1,5 @@
 import React from 'react';
+import {Head} from 'react-static';
 import Section from '../atoms/Section';
 import Container from '../atoms/Container';
 import '../utils/mailchimp';
@@ -7,6 +8,17 @@ export default () => (
 	<Section className="style1">
 		<Container>
 			<h1>Anmeldung</h1>
+			<Head>
+				<script
+					src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+					integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+					crossOrigin="anonymous"
+				/>
+				<script
+					type="text/javascript"
+					src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+				/>
+			</Head>
 			<link
 				href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
 				rel="stylesheet"
