@@ -6,7 +6,11 @@ export default () => (
 	<Section className="style1">
 		<Container>
 			<h1>Anmeldung</h1>
-			<form name="registration" method="POST" data-netlify="true">
+			<form
+				name="registration"
+				method="POST"
+				action="danke"
+				data-netlify="true">
 				<input type="hidden" name="form-name" value="registration" />
 				<div className="row 50%">
 					<div className="12u">

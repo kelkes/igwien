@@ -42,6 +42,7 @@ export default {
 			path: '/',
 			component: 'src/pages/Home',
 		},
+		{path: '/danke', component: 'src/pages/ThankYou'},
 		{
 			path: '/workshops',
 			component: 'src/pages/Workshops',
