@@ -156,27 +156,23 @@ export default () => (
 				</div>
 				<div className="row 50%">
 					<div className="12u">
-						<label htmlFor="vegetarisch">
-							Ich bitte um vegetarische Verpflegung
-						</label>
 						<select name="vegetarisch" id="vegetarisch">
-							<option value="true">Ja</option>
-							<option selected value="false">
-								Nein
+							<option value="">
+								--- Vegetarische Verpflegung ---
 							</option>
+							<option value="true">Ja</option>
+							<option value="false">Nein</option>
 						</select>
 					</div>
 				</div>
 				<div className="row 50%">
 					<div className="12u">
-						<label htmlFor="vegetarisch">
-							Ich werde am Fest (05.10. ab 19.00 Uhr) teilnehmen
-						</label>
 						<select name="fest" id="fest">
-							<option value="true">Ja</option>
-							<option selected value="false">
-								Nein
+							<option value="">
+								--- Ich werde am Fest teilnehmen ---
 							</option>
+							<option value="true">Ja</option>
+							<option value="false">Nein</option>
 						</select>
 					</div>
 				</div>
