@@ -47,7 +47,7 @@ export default [
 	{
 		num: 7,
 		title:
-			'In den Schuhen der/des Anderen - „des einen Fremde ist des anderen Heimat“',
+			'In den Schuhen der/des Anderen',
 		speaker: [
 			'Inci Ardic',
 			'Masoud Eshaghi',
@@ -55,6 +55,6 @@ export default [
 			'Elitsa Tilkidzhieva',
 		],
 		description:
-			'Die WorkshopleiterInnen, die aus unterschiedlichen Ländern stammen, teilen ihre persönlichen Erfahrungen und Gedanken. Sie machen kulturelle Unterschiede sichtbar und arbeiten sowohl Schwieriges als auch Bereicherndes auf dem Weg der Integration mit den Teilnehmern heraus. Ziel des Workshops ist es, die interkulturelle Sensibilität zu erhöhen, die mehrschichtigen Aspekte der Zugehörigkeit zu erfahren und vorübergehend in die Schuhe des Anderen zu schlüpfen.',
+			'„des einen Fremde ist des anderen Heimat“ <br/>Die WorkshopleiterInnen, die aus unterschiedlichen Ländern stammen, teilen ihre persönlichen Erfahrungen und Gedanken. Sie machen kulturelle Unterschiede sichtbar und arbeiten sowohl Schwieriges als auch Bereicherndes auf dem Weg der Integration mit den Teilnehmern heraus. Ziel des Workshops ist es, die interkulturelle Sensibilität zu erhöhen, die mehrschichtigen Aspekte der Zugehörigkeit zu erfahren und vorübergehend in die Schuhe des Anderen zu schlüpfen.',
 	},
 ];
