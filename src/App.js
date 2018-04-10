@@ -27,7 +27,7 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname === '/programm'
+										pathname.startsWith('/programm')
 											? 'current'
 											: ''
 									}>
@@ -35,7 +35,7 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname === '/workshops'
+										pathname.startsWith('/workshops')
 											? 'current'
 											: ''
 									}>
@@ -43,7 +43,7 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname === '/vortraege'
+										pathname.startsWith('/vortraege')
 											? 'current'
 											: ''
 									}>
@@ -51,7 +51,7 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname === '/vortragende'
+										pathname.startsWith('/vortragende')
 											? 'current'
 											: ''
 									}>
@@ -59,7 +59,7 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname === '/anmeldung'
+										pathname.startsWith('/anmeldung')
 											? 'current'
 											: ''
 									}>
