@@ -157,21 +157,27 @@ export default () => (
 				<div className="row 50%">
 					<div className="12u">
 						<label htmlFor="vegetarisch">
-							<input
-								type="checkbox"
-								name="vegetarisch"
-								id="vegetarisch"
-							/>{' '}
 							Ich bitte um vegetarische Verpflegung
 						</label>
+						<select name="vegetarisch" id="vegetarisch">
+							<option value="true">Ja</option>
+							<option selected value="false">
+								Nein
+							</option>
+						</select>
 					</div>
 				</div>
 				<div className="row 50%">
 					<div className="12u">
-						<label htmlFor="fest">
-							<input type="checkbox" name="fest" id="fest" /> Ich
-							werde am Fest (05.10. ab 19.00 Uhr) teilnehmen
+						<label htmlFor="vegetarisch">
+							Ich werde am Fest (05.10. ab 19.00 Uhr) teilnehmen
 						</label>
+						<select name="fest" id="fest">
+							<option value="true">Ja</option>
+							<option selected value="false">
+								Nein
+							</option>
+						</select>
 					</div>
 				</div>
 				<div className="row 50%">
