@@ -35,19 +35,19 @@ const App = () => (
 								</li>
 								<li
 									className={
-										pathname.startsWith('/workshops')
-											? 'current'
-											: ''
-									}>
-									<Link to="/workshops">Workshops</Link>
-								</li>
-								<li
-									className={
 										pathname.startsWith('/vortraege')
 											? 'current'
 											: ''
 									}>
 									<Link to="/vortraege">Vorträge</Link>
+								</li>
+								<li
+									className={
+										pathname.startsWith('/workshops')
+											? 'current'
+											: ''
+									}>
+									<Link to="/workshops">Workshops</Link>
 								</li>
 								<li
 									className={
