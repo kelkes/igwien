@@ -217,7 +217,6 @@ export default () => (
 								type="checkbox"
 								name="datenschutz2"
 								id="datenschutz2"
-								required
 							/>
 							Ich möchte auch in weiterer Folge und bis auf
 							Widerruf über Veranstaltungen des IGWien informiert
