@@ -43,14 +43,12 @@ export default () => (
 							inkludiert.
 						</p>
 					</div>
-					<div className="row 50%">
-						<div className="12u">
-							<select name="anrede" id="anrede" required>
-								<option value="">--- Anrede wählen ---</option>
-								<option value="Herr">Herr</option>
-								<option value="Frau">Frau</option>
-							</select>
-						</div>
+					<div className="12u">
+						<select name="anrede" id="anrede" required>
+							<option value="">--- Anrede wählen ---</option>
+							<option value="Herr">Herr</option>
+							<option value="Frau">Frau</option>
+						</select>
 					</div>
 					<div className="6u 12u(mobilep)">
 						<input
