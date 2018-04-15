@@ -182,6 +182,44 @@ export default () => (
 				</div>
 				<div className="row 50%">
 					<div className="12u">
+						<span>
+							<input
+								type="checkbox"
+								name="datenschutz1"
+								id="datenschutz1"
+								required
+							/>
+							Ich stimme der Erhebung, Speicherung, Verarbeitung
+							und Nutzung meiner oben angegebenen Daten (Name,
+							Anrede, Adresse, Email, Telefonnummer, Verpflegung
+							und Festteilnahme) durch das IGWien zum Zweck der
+							Bewerbung, Organisation und Durchführung der
+							IGWien-Tagung &#x22;Drinnen - Draußen, Zugehörigkeit
+							in einer pluralistischen Gesellschaft&#x22; und
+							weiterer IGWien-Veranstaltungen ausdrücklich zu.
+							Diese Einwilligung kann jederzeit schriftlich bei
+							IGWien, Kaiserstraße 74/11, 1070 Wien oder
+							igw@igwien.at widerrufen werden.
+						</span>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
+						<span>
+							<input
+								type="checkbox"
+								name="datenschutz2"
+								id="datenschutz2"
+								required
+							/>
+							Ich möchte auch in weiterer Folge und bis auf
+							Widerruf über Veranstaltungen des IGWien informiert
+							werden.
+						</span>
+					</div>
+				</div>
+				<div className="row 50%">
+					<div className="12u">
 						<ul className="actions">
 							<li>
 								<input
