@@ -73,7 +73,7 @@ export default () => (
 					<tr>
 						<td>09:00</td>
 						<td>
-							<TalkLink title="Autonomie und Zugehörigkeit im kulturellen Kontext - Wie bedeutsam sind kulturbedingte Unterschiede für die gestalttherapeutische Arbeit?" />
+							<TalkLink title="Eigenständigkeit und Zugehörigkeit im kulturellen Kontext - Wie bedeutsam sind kulturbedingte Unterschiede für die gestalttherapeutische Arbeit?" />
 							<br />
 							<SpeakerLink speaker="Peter Philippson" />
 						</td>
