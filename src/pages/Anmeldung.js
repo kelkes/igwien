@@ -40,7 +40,7 @@ export default () => (
 					<div className="12u">
 						<p>
 							* Die Verpflegung ist in der Tagungsgebühr
-							inkludiert.
+							inkludiert. <br/>TagungsteilnehmerIn = eingetragene/r PsychotherapeutIn
 						</p>
 					</div>
 					<div className="12u">
@@ -202,8 +202,7 @@ export default () => (
 							und Festteilnahme) durch das IGWien zum Zweck der
 							Bewerbung, Organisation und Durchführung der
 							IGWien-Tagung &#x22;Drinnen - Draußen, Zugehörigkeit
-							in einer pluralistischen Gesellschaft&#x22; und
-							weiterer IGWien-Veranstaltungen ausdrücklich zu.
+							in einer pluralistischen Gesellschaft&#x22; zu.
 							Diese Einwilligung kann jederzeit schriftlich bei
 							IGWien, Kaiserstraße 74/11, 1070 Wien oder
 							igw@igwien.at widerrufen werden.
