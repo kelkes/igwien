@@ -40,7 +40,8 @@ export default () => (
 					<div className="12u">
 						<p>
 							* Die Verpflegung ist in der Tagungsgebühr
-							inkludiert.
+							inkludiert. <br />TagungsteilnehmerIn =
+							eingetragene/r PsychotherapeutIn
 						</p>
 					</div>
 					<div className="12u">

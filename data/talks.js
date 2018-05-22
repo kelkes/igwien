@@ -15,7 +15,7 @@ export default [
 	},
 	{
 		title:
-			'Autonomie und Zugehörigkeit im kulturellen Kontext - Wie bedeutsam sind kulturbedingte Unterschiede für die gestalttherapeutische Arbeit?',
+			'Eigenständigkeit und Zugehörigkeit im kulturellen Kontext - Wie bedeutsam sind kulturbedingte Unterschiede für die gestalttherapeutische Arbeit?',
 		speaker: 'Peter Philippson',
 		description:
 			'I bring to this topic my experience of growing up in a refugee family, and my work in 19 countries. I also bring a holistic Gestalt approach, which makes culture one of the factors in our development as people. There is a dialectic between the person and the culture: we are not culturally determined, nor are we culture-free, but are made by, and make changes to, the culture. As therapists, we must be aware of this dialectic, especially in situations where the cost of acting counter-culturally is high.',
