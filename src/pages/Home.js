@@ -22,20 +22,30 @@ export default withSiteData(() => (
 		<Section className="style2">
 			<Container>
 				<p>
-				Jahrhundertelang wurde in Europa Zugehörigkeit vor allem durch die Religion festgelegt. Erst mit
-				der Aufklärung erfolgte ein Umdenken. Dennoch führten die Verabsolutierung einer bestimmten Volks- oder
-				Stammeszugehörigkeit, das Einfordern eindeutiger, heterosexueller Orientierung oder die Definition von Behinderung
-				als unwertes Leben im 20. Jahrhundert zu Verfolgung, Ausgrenzung und
-				Vernichtung. Wer die Augen und das Herz nicht verschließt, kann all das auch in der Gegenwart
-				entdecken.</p>
+					Jahrhundertelang wurde in Europa Zugehörigkeit vor allem
+					durch die Religion festgelegt. Erst mit der Aufklärung
+					erfolgte ein Umdenken. Dennoch führten die Verabsolutierung
+					einer bestimmten Volks- oder Stammeszugehörigkeit, das
+					Einfordern eindeutiger, heterosexueller Orientierung oder
+					die Definition von Behinderung als unwertes Leben im 20.
+					Jahrhundert zu Verfolgung, Ausgrenzung und Vernichtung. Wer
+					die Augen und das Herz nicht verschließt, kann all das auch
+					in der Gegenwart entdecken.
+				</p>
 				<p>
-				Das Spannungsfeld zwischen drinnen und draußen, Fremdem und Vertrautem, Zugehörigkeit und
-				Eigenständigkeit stellt uns immer wieder vor wichtige Aufgaben der Auseinandersetzung und der Integration:
- 				Gesellschaftlich, politisch, persönlich und nicht zuletzt therapeutisch.  <br/>
-				Im Rahmen unserer Tagung  wollen wir diesen verschiedenen Aspekten und den damit verbundenen Herausforderungen nachgehen, polare Spaltungen aufspüren
-				und Möglichkeiten therapeutischer Interventionen sichtbar machen.<br/>
-				Anlässlich unseres 20- jährigen Bestehens als gesetzlich anerkanntes psychotherapeutisches
-				Fachspezifikum freuen wir uns darauf, miteinander zu feiern und dabei Zugehörigkeit zu (er)leben.
+					Das Spannungsfeld zwischen drinnen und draußen, Fremdem und
+					Vertrautem, Zugehörigkeit und Eigenständigkeit stellt uns
+					immer wieder vor wichtige Aufgaben der Auseinandersetzung
+					und der Integration:   Gesellschaftlich, politisch,
+					persönlich und nicht zuletzt therapeutisch.  <br />
+					Im Rahmen unserer Tagung wollen wir diesen verschiedenen
+					Aspekten und den damit verbundenen Herausforderungen
+					nachgehen, polare Spaltungen aufspüren und Möglichkeiten
+					therapeutischer Interventionen sichtbar machen.<br />
+					Anlässlich unseres 20- jährigen Bestehens als gesetzlich
+					anerkanntes psychotherapeutisches Fachspezifikum freuen wir
+					uns darauf, miteinander zu feiern und dabei Zugehörigkeit zu
+					(er)leben.
 				</p>
 
 				<p className="lead">
@@ -52,14 +62,15 @@ export default withSiteData(() => (
 					Grillmeier lernt das IGW Würzburg kennen, schätzt die dort
 					gelebte Kollegialität, die internationale Ausrichtung und
 					die langjährige Tradition der Zusammenarbeit mit dem
-					Cleveland Institute. <br /><br />Vier österreichische und vier deutsche
+					Cleveland Institute. <br />
+					<br />Vier österreichische und vier deutsche
 					GestalttherapeutInnen starten ein gemeinsames Unternehmen:
 					1996 beginnt die erste Ausbildungsgruppe noch „über der
 					Grenze“. Seit der erfolgreichen Anerkennung als
 					eingetragenes Fachspezifikum 1998 haben 20
 					Ausbildungsgruppen, engagierte Lehrende und viele kompetente
-					Graduierte die IGWien-Gestalt geformt. <br /><br />Wir freuen uns über
-					das Gelungene und auf die Zukunft!
+					Graduierte die IGWien-Gestalt geformt. <br />
+					<br />Wir freuen uns über das Gelungene und auf die Zukunft!
 				</p>
 			</Container>
 		</Section>

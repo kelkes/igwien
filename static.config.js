@@ -79,6 +79,14 @@ export default {
 			component: 'src/pages/Anmeldung',
 		},
 		{
+			path: '/datenschutzerklaerung',
+			component: 'src/pages/Datenschutzerklaerung',
+		},
+		{
+			path: '/impressum',
+			component: 'src/pages/Impressum',
+		},
+		{
 			is404: true,
 			component: 'src/pages/404',
 		},

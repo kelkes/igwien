@@ -189,25 +189,20 @@ export default () => (
 				</div>
 				<div className="row 50%">
 					<div className="12u">
-						<span>
-							<input
-								type="checkbox"
-								name="datenschutz1"
-								id="datenschutz1"
-								required
-							/>
-							Ich stimme der Erhebung, Speicherung, Verarbeitung
-							und Nutzung meiner oben angegebenen Daten (Name,
-							Anrede, Adresse, Email, Telefonnummer, Verpflegung
-							und Festteilnahme) durch das IGWien zum Zweck der
-							Bewerbung, Organisation und Durchführung der
-							IGWien-Tagung &#x22;Drinnen - Draußen, Zugehörigkeit
-							in einer pluralistischen Gesellschaft&#x22; und
-							weiterer IGWien-Veranstaltungen ausdrücklich zu.
-							Diese Einwilligung kann jederzeit schriftlich bei
-							IGWien, Kaiserstraße 74/11, 1070 Wien oder
-							igw@igwien.at widerrufen werden.
-						</span>
+						<p>
+							Das IGWien verarbeitet die oben bekannt gegebenen
+							Daten zum Zweck der Organisation und Durchführung
+							der IGWien-Tagung &quot;Drinnen - Draußen,
+							Zugehörigkeit in einer pluralistischen
+							Gesellschaft&quot;. Es besteht das Recht auf
+							Auskunft, Berichtigung, Löschung, Einschränkung
+							sowie Widerspruch und ein Recht auf
+							Datenübertragbarkeit, sofern dieses jeweilige Recht
+							nicht den Erfordernissen der Organisation und
+							Durchführung der Tagung widerspricht. Weiters steht
+							ein Beschwerderecht bei der Aufsichtsbehörde (in
+							Österreich die Datenschutzbehörde) zu.
+						</p>
 					</div>
 				</div>
 				<div className="row 50%">
@@ -220,7 +215,13 @@ export default () => (
 							/>
 							Ich möchte auch in weiterer Folge und bis auf
 							Widerruf über Veranstaltungen des IGWien informiert
-							werden.
+							werden. Ich stimme der Erhebung, Speicherung,
+							Verarbeitung und Nutzung meiner oben angegebenen
+							Daten (Name, Anrede, Adresse, Email, Telefonnummer)
+							durch das IGWien zu diesem Zweck zu. Diese
+							Einwilligung ist freiwillig und kann jederzeit
+							schriftlich bei IGWien, Kaiserstraße 74/11, 1070
+							Wien oder igw@igwien.at widerrufen werden.
 						</span>
 					</div>
 				</div>

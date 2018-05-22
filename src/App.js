@@ -77,10 +77,10 @@ const App = () => (
 						<section className="3u 6u(narrower) 12u$(mobilep)" />
 						<section className="6u 12u(narrower)">
 							<p>
-								IGWien<br />Institut für Integrative
-								Gestalttherapie Wien<br />
-								Kaiserstraße 74/11, A-1070 Wien<br />Tel +43 1
-								47 80 925<br />www.igwien.at
+								<Link to="/impressum">Impressum</Link>{' '}
+								<Link to="/datenschutzerklaerung">
+									Datenschutzerklärung
+								</Link>
 							</p>
 						</section>
 					</div>
