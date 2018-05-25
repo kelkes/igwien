@@ -2584,3 +2584,7 @@ td {
 	padding-bottom: 8px;
 	min-width: 100px;
 }
+
+.text-center {
+	text-align: center;
+}

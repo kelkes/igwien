@@ -75,7 +75,7 @@ const App = () => (
 				<div className="container">
 					<div className="row">
 						<section className="3u 6u(narrower) 12u$(mobilep)" />
-						<section className="6u 12u(narrower)">
+						<section className="6u 12u(narrower) text-center">
 							<p>
 								<Link to="/impressum">Impressum</Link>{' '}
 								<Link to="/datenschutzerklaerung">
