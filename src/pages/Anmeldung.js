@@ -112,9 +112,6 @@ export default () => (
 							<option value="WORKSHOP 1">
 								Workshop 1 (Heide Anger)
 							</option>
-							<option value="WORKSHOP 2">
-								Workshop 2 (Christiane Eichenberg)
-							</option>
 							<option value="WORKSHOP 3">
 								Workshop 3 (Maria Flaig)
 							</option>
@@ -143,9 +140,6 @@ export default () => (
 							<option value="">--- Workshop 2. Wahl ---</option>
 							<option value="WORKSHOP 1">
 								Workshop 1 (Heide Anger)
-							</option>
-							<option value="WORKSHOP 2">
-								Workshop 2 (Christiane Eichenberg)
 							</option>
 							<option value="WORKSHOP 3">
 								Workshop 3 (Maria Flaig)
