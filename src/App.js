@@ -57,14 +57,6 @@ const App = () => (
 									}>
 									<Link to="/vortragende">Vortragende</Link>
 								</li>
-								<li
-									className={
-										pathname.startsWith('/anmeldung')
-											? 'current'
-											: ''
-									}>
-									<Link to="/anmeldung">Anmeldung</Link>
-								</li>
 							</ul>
 						)}
 					/>

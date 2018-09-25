@@ -42,7 +42,6 @@ export default {
 			path: '/',
 			component: 'src/pages/Home',
 		},
-		{path: '/danke', component: 'src/pages/ThankYou'},
 		{
 			path: '/workshops',
 			component: 'src/pages/Workshops',
@@ -73,10 +72,6 @@ export default {
 		{
 			path: '/programm',
 			component: 'src/pages/Programm',
-		},
-		{
-			path: '/anmeldung',
-			component: 'src/pages/Anmeldung',
 		},
 		{
 			path: '/datenschutzerklaerung',
